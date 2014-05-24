@@ -1,5 +1,5 @@
 class Font:
-	def __init__(self,name)
+	def __init__(self,name):
 		self.letters = ()
 		self.name = name
 
