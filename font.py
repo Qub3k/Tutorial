@@ -8,7 +8,7 @@ class FontLoader:
 		font = Font("fancy")
 
 		font.letters['O'] = r'''
-	______
+	 ______
    (  __  )
    ( (__) ) 
    (______)	  
@@ -22,4 +22,11 @@ class FontLoader:
    	(__)
 
    	'''
-   		return font
+         font.letters['T'] = r'''
+
+       ______
+      (_    _) 
+         ><
+        (__)
+      '''
+          return font
