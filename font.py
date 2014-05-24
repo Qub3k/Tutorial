@@ -1,5 +1,5 @@
 class Font:
-	def __init__(self)
+	def __init__(self,name)
 		self.letters = ()
 		self.name = name
 
@@ -22,11 +22,11 @@ class FontLoader:
    	(__)
 
    	'''
-         font.letters['T'] = r'''
+      font.letters['T'] = r'''
 
        ______
       (_    _) 
          ><
         (__)
       '''
-          return font
+      return font
