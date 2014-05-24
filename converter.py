@@ -26,5 +26,5 @@ class TextDrawer:
 	def draw(self, text):
 		pass
 
-if __name__ == '__main__'
+if __name__ == '__main__':
 	main()
