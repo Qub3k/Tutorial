@@ -15,7 +15,7 @@ def getText():
 	 print "Bad arguments"
 	 sys.exit(1)
 	 
- return sys.argv[0]
+ return sys.argv[1]
 
 class Font:
 	pass
