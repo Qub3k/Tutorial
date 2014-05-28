@@ -3,6 +3,7 @@ class TextDrawer:
 		self.font = font
 
 	def draw(self, text):
+	 if text:
 		firstLetter = self.font.letters[text[0].upper()]
 		drawing = splitLetter(firstLetter)
 
