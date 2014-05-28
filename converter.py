@@ -11,7 +11,11 @@ def main():
 	drawer.draw(text)
 
 def getText():
-	return sys.argv[0]
+ if len(sys.argv) != 1:
+	 print "Bad arguments"
+	 sys.exit(1)
+	 
+ return sys.argv[0]
 
 class Font:
 	pass
