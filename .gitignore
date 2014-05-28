@@ -1,2 +1,6 @@
 *.pyc
 *.py~
+*.exe
+*.exec
+*.o
+Executables/
