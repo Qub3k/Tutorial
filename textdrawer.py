@@ -21,4 +21,4 @@ def appendLetter(text, letter):
 		for i in xrange  (len(text)):
 			text[i] += letter[i]
 
-	return text
+		return text
